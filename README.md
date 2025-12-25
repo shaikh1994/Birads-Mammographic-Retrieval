@@ -72,37 +72,40 @@ pip install -r requirements.txt
 Recommended environment
 
 > ** Python 3.9 or higher
+> 
 > **PyTorch (CPU or CUDA-enabled GPU)
+> 
 > **FAISS (CPU or GPU version depending on setup).
 
 ## Outputs and Results
 
 The repository includes paper-aligned experimental artifacts, such as:
 
-Retrieval performance tables (CSV / LaTeX)
-
-Model comparison figures
-
-Precision–recall curves
-
-Statistical test results
-
-Ensemble performance summaries
+> **Retrieval performance tables (CSV / LaTeX)
+> 
+> **Model comparison figures
+> 
+> **Precision–recall curves
+> 
+> **Statistical test results
+> 
+> **Ensemble performance summaries
 
 These files are organized under:
 
-reports/tables/
-reports/figures/
+> **reports/tables/
+> 
+> **reports/figures/
 
 ## Citation
 
-@article{rahman2025birads,
-title={Advanced Multi-architecture Deep Learning Framework for BIRADS-Based Mammographic Image Retrieval: Comprehensive Performance Analysis with Super-Ensemble Optimization},
-author={Rahman, MD Shaikh and Humayara, Feiroz and Rabbi, Syed Maudud E. and Rashid, Muhammad Mahbubur},
-journal={Journal of Imaging Informatics in Medicine},
-year={2025},
-doi={10.1007/s10278-025-01770-6}
-}
+    @article{rahman2025birads,
+    title={Advanced Multi-architecture Deep Learning Framework for BIRADS-Based Mammographic Image Retrieval: Comprehensive Performance Analysis with Super-Ensemble Optimization},
+    author={Rahman, MD Shaikh and Humayara, Feiroz and Rabbi, Syed Maudud E. and Rashid, Muhammad Mahbubur},
+    journal={Journal of Imaging Informatics in Medicine},
+    year={2025},
+    doi={10.1007/s10278-025-01770-6}
+    }
 
 ## Disclaimer
 
