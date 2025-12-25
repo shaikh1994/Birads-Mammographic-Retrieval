@@ -71,6 +71,26 @@ Recommended environment
 > 
 > FAISS (CPU or GPU version depending on setup).
 
+## Pretrained Model Weights
+
+Pretrained models used in the paper are available via GitHub Releases.
+
+Download from:
+https://github.com/YOUR_USERNAME/YOUR_REPO/releases/tag/v1.0.0
+
+Included models:
+- DenseNet121 (advanced fine-tuning)
+- ResNet50 (advanced fine-tuning)
+
+After downloading, place the weights in a local directory, e.g.:
+
+    model_weights/
+    ├── best_DenseNet121_advanced.pth
+    ├── best_ResNet50_advanced.pth
+
+Update the notebook paths accordingly before running inference or evaluation.
+
+
 ## Outputs and Results
 
 The repository includes paper-aligned experimental artifacts, such as:
