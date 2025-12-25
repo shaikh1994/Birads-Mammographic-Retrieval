@@ -7,13 +7,13 @@ This repository contains the official implementation for the paper:
 **Authors:**  
 MD Shaikh Rahman, Feiroz Humayara, Syed Maudud E. Rabbi, Muhammad Mahbubur Rashid
 
-📄 **Journal:** Journal of Imaging Informatics in Medicine  
-🔗 **Springer:** https://link.springer.com/article/10.1007/s10278-025-01770-6  
-📘 **arXiv:** https://arxiv.org/abs/2508.04790
+ **Journal:** Journal of Imaging Informatics in Medicine  
+ **Springer:** https://link.springer.com/article/10.1007/s10278-025-01770-6  
+ **arXiv:** https://arxiv.org/abs/2508.04790
 
 ---
 
-## 🔍 Overview
+##  Overview
 
 This work presents a comprehensive deep learning–based mammographic image retrieval framework for **5-class BIRADS classification**, featuring:
 
@@ -29,13 +29,7 @@ The repository provides the full experimental pipeline used in the paper.
 
 ---
 
-## 📁 Repository Structure
-
-├── notebooks/ # Main experiment notebook
-├── data/ # Dataset instructions (no images included)
-├── reports/ # Paper-ready tables, figures, and logs
-├── model_weights/ # Optional pretrained weights (external download)
-
+##  Repository Structure
 
     .
     ├── notebooks                   # Main experiment notebook
@@ -46,7 +40,7 @@ The repository provides the full experimental pipeline used in the paper.
 
 ---
 
-## 🧠 Dataset
+##  Dataset
 
 The study uses the **TCIA CDD-CESM** mammographic dataset.
 
@@ -60,7 +54,7 @@ See [`data/README.md`](data/README.md) for:
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 Create a Python environment and install dependencies:
 
