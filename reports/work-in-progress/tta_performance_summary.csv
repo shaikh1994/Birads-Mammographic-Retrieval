@@ -1,0 +1,3 @@
+model,precision_at_10
+DenseNet121_AdvancedFT_TTA,0.3471254355400697
+ResNet50_AdvancedFT_TTA,0.3103658536585366

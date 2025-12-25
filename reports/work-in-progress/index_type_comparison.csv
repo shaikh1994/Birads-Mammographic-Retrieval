@@ -1,0 +1,7 @@
+model_,index_type_,precision_mean,precision_std,recall_mean,recall_std,search_time_mean_mean,search_time_mean_std
+DenseNet121,FlatIP,0.277035,0.256473,0.063515,0.067313,1.8e-05,5e-06
+DenseNet121,FlatL2,0.273983,0.254331,0.063249,0.067512,1.9e-05,6e-06
+ResNet50,FlatIP,0.273986,0.258309,0.062138,0.066551,3.5e-05,1.7e-05
+ResNet50,FlatL2,0.270575,0.252875,0.061409,0.065338,3.5e-05,6e-06
+VGG16,FlatIP,0.267892,0.252965,0.061871,0.066397,6.6e-05,9e-06
+VGG16,FlatL2,0.267575,0.254511,0.061669,0.066524,7e-05,1.4e-05

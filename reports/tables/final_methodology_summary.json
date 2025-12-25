@@ -1,0 +1,23 @@
+{
+  "evaluation_timestamp": "2025-10-27T00:29:27.287638",
+  "total_methods_evaluated": 9,
+  "total_evaluations": 51660,
+  "data_splits": {
+    "train_samples": 1142,
+    "validation_samples": 290,
+    "test_samples": 574
+  },
+  "best_performance": {
+    "model": "DenseNet121_AdvancedFT_TTA",
+    "precision_at_10": 0.3471,
+    "improvement_from_baseline": 25.74
+  },
+  "method_categories": {
+    "original_individual": 3,
+    "original_ensembles": 0,
+    "advanced_finetuned": 2,
+    "metric_learning": 0,
+    "super_ensembles": 4,
+    "tta_models": 2
+  }
+}

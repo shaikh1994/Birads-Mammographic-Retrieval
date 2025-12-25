@@ -1,0 +1,48 @@
+{
+  "creation_time": "2025-10-27T00:16:04.376314",
+  "total_ensembles": 4,
+  "evaluation_count": 22960,
+  "ensemble_details": {
+    "SuperEnsemble_mega_all": {
+      "feature_dimension": 7168,
+      "component_models": [
+        "DenseNet121_AdvancedFT_AdvancedFT",
+        "ResNet50_AdvancedFT_AdvancedFT",
+        "DenseNet121_MetricLearning_MetricLearning",
+        "ResNet50_MetricLearning_MetricLearning",
+        "DenseNet121_Original",
+        "ResNet50_Original"
+      ],
+      "validation_samples": 290,
+      "test_samples": 574
+    },
+    "SuperEnsemble_best_two_advanced": {
+      "feature_dimension": 3072,
+      "component_models": [
+        "DenseNet121_AdvancedFT",
+        "ResNet50_AdvancedFT"
+      ],
+      "validation_samples": 290,
+      "test_samples": 574
+    },
+    "SuperEnsemble_best_two_metric": {
+      "feature_dimension": 1024,
+      "component_models": [
+        "DenseNet121_MetricLearning",
+        "ResNet50_MetricLearning"
+      ],
+      "validation_samples": 290,
+      "test_samples": 574
+    },
+    "SuperEnsemble_mixed_best": {
+      "feature_dimension": 2560,
+      "component_models": [
+        "DenseNet121_AdvancedFT_mixed_best",
+        "DenseNet121_MetricLearning_mixed_best",
+        "DenseNet121_mixed_best"
+      ],
+      "validation_samples": 290,
+      "test_samples": 574
+    }
+  }
+}

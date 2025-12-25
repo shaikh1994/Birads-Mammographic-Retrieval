@@ -1,0 +1,16 @@
+\begin{table}
+\caption{Performance Comparison of All Methods (Top 5 Results)}
+\label{tab:final_performance}
+\begin{tabular}{lcccccc}
+\toprule
+ & Precision@10 & Recall@10 & NDCG@10 & Search Time (ms) & Sample Count & Improvement (%) \\
+model &  &  &  &  &  &  \\
+\midrule
+DenseNet121_AdvancedFT_TTA & 0.3471 ± 0.2386 & 0.0483 ± 0.0326 & 0.619000 & 0.000000 & 1148 & 25.740000 \\
+SuperEnsemble_best_two_advanced & 0.3395 ± 0.2330 & 0.0476 ± 0.0324 & 0.621300 & 0.100000 & 1148 & 22.990000 \\
+SuperEnsemble_mixed_best & 0.3331 ± 0.2287 & 0.0462 ± 0.0303 & 0.617200 & 0.000000 & 1148 & 20.670000 \\
+SuperEnsemble_mega_all & 0.3279 ± 0.2190 & 0.0460 ± 0.0304 & 0.618300 & 0.100000 & 1148 & 18.780000 \\
+ResNet50_AdvancedFT_TTA & 0.3104 ± 0.2043 & 0.0440 ± 0.0288 & 0.601900 & 0.000000 & 1148 & 12.450000 \\
+\bottomrule
+\end{tabular}
+\end{table}

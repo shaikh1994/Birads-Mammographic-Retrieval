@@ -1,0 +1,18 @@
+paths:
+  images_low_energy: "./images/low_energy"
+  images_subtracted: "./images/subtracted_images"
+  annotations_xlsx: "./annotations/Radiology-manual-annotations(2).xlsx"
+  output_dir: "./reports"
+
+runtime:
+  device: "cpu" # "cuda" if available
+  seed: 42
+
+faiss:
+  index_type: "FlatIP"
+  nprobe: 16
+
+eval:
+  ks: [1, 5, 10]
+  patient_exclusive: true
+  bootstrap_iters: 1000

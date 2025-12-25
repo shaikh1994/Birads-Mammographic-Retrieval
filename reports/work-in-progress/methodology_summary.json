@@ -1,0 +1,42 @@
+{
+  "evaluation_framework": {
+    "total_images": 574,
+    "total_evaluations": 17220,
+    "models_evaluated": [
+      "DenseNet121",
+      "ResNet50",
+      "VGG16"
+    ],
+    "k_values_tested": [
+      1,
+      5,
+      10,
+      20,
+      50
+    ],
+    "index_types": [
+      "FlatIP",
+      "FlatL2"
+    ]
+  },
+  "data_handling": {
+    "dataset_split_strategy": "Stratified random split",
+    "train_ratio": 0.49999999999999994,
+    "validation_ratio": 0.2,
+    "test_ratio": 0.3,
+    "validation_performed": "Strict separation between query and database sets",
+    "data_leakage_prevention": "Separate file paths validated for each split"
+  },
+  "evaluation_metrics": {
+    "precision_calculation": "Relevant retrieved / Total retrieved",
+    "recall_calculation": "Relevant retrieved / Total relevant in database",
+    "ndcg_calculation": "Normalized discounted cumulative gain",
+    "timing_methodology": "Average of 3 trials with nanosecond precision"
+  },
+  "statistical_analysis": {
+    "confidence_intervals": "95.0% bootstrap confidence intervals",
+    "bootstrap_samples": 1000,
+    "significance_testing": "Paired t-tests and Mann-Whitney U tests",
+    "effect_size_measure": "Cohen's d"
+  }
+}
