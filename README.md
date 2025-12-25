@@ -65,31 +65,31 @@ pip install -r requirements.txt
 
 Recommended environment
 
-> ** Python 3.9 or higher
+> Python 3.9 or higher
 > 
-> **PyTorch (CPU or CUDA-enabled GPU)
+> PyTorch (CPU or CUDA-enabled GPU)
 > 
-> **FAISS (CPU or GPU version depending on setup).
+> FAISS (CPU or GPU version depending on setup).
 
 ## Outputs and Results
 
 The repository includes paper-aligned experimental artifacts, such as:
 
-> **Retrieval performance tables (CSV / LaTeX)
+> Retrieval performance tables (CSV / LaTeX)
 > 
-> **Model comparison figures
+> Model comparison figures
 > 
-> **Precision–recall curves
+> Precision–recall curves
 > 
-> **Statistical test results
+> Statistical test results
 > 
-> **Ensemble performance summaries
+> Ensemble performance summaries
 
 These files are organized under:
 
-> **reports/tables/
+> reports/tables/
 > 
-> **reports/figures/
+> reports/figures/
 
 ## Citation
 
