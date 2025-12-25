@@ -11,7 +11,6 @@ MD Shaikh Rahman, Feiroz Humayara, Syed Maudud E. Rabbi, Muhammad Mahbubur Rashi
  **Springer:** https://link.springer.com/article/10.1007/s10278-025-01770-6  
  **arXiv:** https://arxiv.org/abs/2508.04790
 
----
 
 ##  Overview
 
@@ -27,7 +26,7 @@ This work presents a comprehensive deep learning–based mammographic image retr
 
 The repository provides the full experimental pipeline used in the paper.
 
----
+
 
 ##  Repository Structure
 
@@ -38,7 +37,7 @@ The repository provides the full experimental pipeline used in the paper.
     └── model_weights               # pretrained weights
     
 
----
+
 
 ##  Dataset
 
@@ -52,7 +51,7 @@ See [`data/README.md`](data/README.md) for:
 - Expected folder structure
 - Annotation file format
 
----
+
 
 ##  Installation
 
