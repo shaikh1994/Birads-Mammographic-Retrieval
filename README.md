@@ -36,6 +36,14 @@ The repository provides the full experimental pipeline used in the paper.
 ├── reports/ # Paper-ready tables, figures, and logs
 ├── model_weights/ # Optional pretrained weights (external download)
 
+
+    .
+    ├── notebooks                   # Main experiment notebook
+    ├── data                        # Dataset instructio
+    ├── reports                     # Paper-ready tables, figures, and logs
+    └── model_weights               # pretrained weights
+    
+
 ---
 
 ## 🧠 Dataset
@@ -63,11 +71,9 @@ pip install -r requirements.txt
 
 Recommended environment
 
-Python 3.9 or higher
-
-PyTorch (CPU or CUDA-enabled GPU)
-
-FAISS (CPU or GPU version depending on setup).
+> ** Python 3.9 or higher
+> **PyTorch (CPU or CUDA-enabled GPU)
+> **FAISS (CPU or GPU version depending on setup).
 
 ## Outputs and Results
 
