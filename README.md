@@ -75,7 +75,7 @@ Recommended environment
 Pretrained models used in the paper are available via GitHub Releases.
 
 Download from:
-https://github.com/YOUR_USERNAME/YOUR_REPO/releases/tag/v1.0.0
+https://github.com/shaikh1994/Birads-Mammographic-Retrieval/releases/tag/v1.0.0
 
 Included models:
 - DenseNet121 (advanced fine-tuning)
